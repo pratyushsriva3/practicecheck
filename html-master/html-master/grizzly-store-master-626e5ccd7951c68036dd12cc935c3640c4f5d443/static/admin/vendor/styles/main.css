@@ -1,0 +1,325 @@
+/*Login page*/
+.uname{
+   			 border-radius: 18px;
+   			 background:#e1e1e1;
+    			padding: 15px; 
+    			width: 200px;
+   			 height: 3px;   
+			  border: none;
+			margin: 5px;
+	}
+.invisible {
+  visibility: hidden;
+}
+sub {
+  vertical-align: sub;
+  font-size: 300%;
+}
+div.head {
+  margin-left:-35em;
+margin-bottom:-3em;
+}
+.but{
+  			border-radius: 25px;
+ 			 background-color:  #b3b3b3;
+ 			 border: none;
+ 			 color: black;
+  			padding: 2px;
+  			text-align: center;
+  			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 90px;
+ 			height: 30px; 
+			margin-left:-2em;  
+	}
+/* Product page */
+#nav	{
+			background-color:#e2e2e2;
+	}
+.p	{
+			font-weight:500;
+	}
+.search
+	{
+  			border-radius:30px;
+ 			 background-color: #FFFFFF;
+ 			 border: none;
+ 			 color: 2px solid black;
+  			padding: 10px;
+  			text-align: left;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 250px;
+ 			height: 30px;   
+	}	
+.button{
+  			border-radius: 25px;
+ 			 background-color:  #b3b3b3;
+ 			 border: none;
+ 			 color: black;
+  			padding: 2px;
+  			text-align: center;
+  			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 90px;
+ 			height: 30px; 
+			
+	}
+.v{
+  			border-radius: 25px;
+ 			 background-color:  #e3e3e3;
+ 			 border: none;
+ 			 color: grey;
+  			padding: 2px;
+  			text-align: center;
+  			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 90px;
+ 			height: 30px; 
+			
+	}
+.h	{
+		color:black;
+		
+		font-size:15px;
+		text-align:center;
+	}
+.e	{
+		color:#808080;
+		font-size:13px;
+		 
+		text-align:center;
+	}
+.na{
+		line-height: 40%;
+}
+
+		
+.card	{
+    			background-color:#e2e2e2;
+			width: 14rem;
+			height:32rem
+			
+	}
+.btn{
+  			border-radius: 0;
+ 			 background-color: #e2e2e2;
+ 			 border: none;
+ 			 color: black;
+  			padding: 2px;
+  			text-align: left;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+			 margin-left: -1px;
+ 			width: 250px;
+ 			height: 50px;   
+}
+#bn{
+  			border-radius: 0;
+ 			 background-color: #e2e2e2;
+ 			 border: none;
+ 			 color: black;
+  			padding: 2px;
+  			text-align: left;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+			 margin-left: -1px;
+ 			width: 250px;
+ 			height: 50px;   
+}
+#focus:focus {
+ background-color:darkgrey;
+}
+#s1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 55px;
+    background-color: #a2a2a2;
+  }
+.ip	{
+  			border-radius: 25px;
+ 			 background-color:  #e2e2e2;
+ 			 border: none;
+ 			 color: black;
+  			padding: 2px;
+  			text-align: left;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 250px;
+ 			height: 30px;   
+	}
+.act	{
+  			border-radius: 25px;
+ 			 background-color:  #e2e2e2;
+ 			 border: none;
+ 			 color: gray;
+  			padding: 2px;
+  			text-align: left;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 150px;
+ 			height: 30px;   
+}
+.sort{
+  			border-radius: 25px;
+ 			 background-color:  #e2e2e2;
+ 			 border: none;
+ 			 color: gray;
+  			padding: 2px;
+  			text-align: left;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 120px;
+ 			height: 30px;   
+}
+.add{
+  			border-radius: 25px;
+ 			 background-color:#A9A9A9;
+ 			 border: none;
+ 			 color: white;
+  			padding: 2px;
+  			text-align: center;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 120px;
+ 			height: 30px;   
+}
+
+
+button:active{
+  					  background:#A9A9A9;
+}
+#c{
+  			border-radius: 25px;
+ 			 background-color:#A9A9A9;
+ 			 border: none;
+ 			 color: black;
+  			padding: 2px;
+  			text-align: center;
+ 			 text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+ 			 margin:2px;
+			width: 120px;
+ 			height: 30px;   
+			}
+#pd{
+border:none;
+padding:10px;
+width:300px;
+height:10px;
+}
+#box{
+width:200px;
+height:100px;
+border: 2px solid #D3D3D3;
+background-color:#C0C0C0;
+padding: 10px; 
+}
+#bo
+{
+border-style:dashed;
+border-color:200px solid #d3d3d3;
+width:150px;
+height:150px;
+letter-spacing: 10px; 
+
+margin-left:100px;
+margin-top:30px;
+margin-right:100px;
+}
+div.absolute{
+					position:absolute;
+					width:50%;
+					top:250px;
+					border:3px;
+				}    
+				
+.active {
+  background-color: #666;
+  color: white;
+}
+.button-clicked{
+background-color:#A9A9A9;}	
+
+#x1{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+ 
+  /* Hide the browser's default radio button */
+  #x1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background:white;
+    border-radius: 50%;
+    border:Solid 1px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+
+  
+  /* When the radio button is checked, add a blue background */
+  #x1 input:checked ~ .checkmark {
+    background-color: black;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  #x1 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  #x1 .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+	

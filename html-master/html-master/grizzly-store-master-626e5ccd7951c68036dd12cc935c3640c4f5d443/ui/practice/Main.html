@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width.initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+
+	</head>
+	<body>
+
+
+		<nav class="navbar navbar-expand-sm bg-light navbar-dark justify-content-left">
+		     <div class="container-fluid">
+		            <div class="navbar-header">
+			<a class="navbar-brand" href="#"><font color="black">GRIZZLY</font></a>
+			<img src="images/griz.jpg">&nbsp&nbsp
+			<a class="navbar-brand" href="#"><font color="black">STORE</font></a>
+		            </div>
+		            <ul class="nav navbar-nav navbar-right">
+			<li class="nav-item"><img src="images/g.jpg"/></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<li class="nav-item"><p class="p">Welcome,  Admin&lt;Name&gt;...</p></li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<li class="nav-item"><a href="index.html"><input type="submit"  value="Logout" class="button"/></a></li>
+		             </ul>
+		    </div>
+		</nav>
+	
+	
+		<div class="row mt-5 ml-3">
+                                       	         <div class="col-sm-3">
+                                        		<div class="container" align="left">
+                                        	                                    <div class="card" style="width: 13rem;height:32rem">
+                                                                                            <div class="card-header  mt-1 mb-3 mr-2 ml-2" style="color:white">PROFILE</div>
+                                                                                             <img class="card  mt-1 mb-3 mr-5 ml-5" src="images/gr.jpg" height="100" width="100" >
+                                                                                            <div class="card-body ">
+                                                             		<h3 class="card-title" align="center"><p>Helen Cho</p></h3>
+                                                                          	<h6 class="card-text" style="color:black" align="center">ID</h6> 
+                                                                          	<h6 class="card-text" style="color:#808080" align="center"><p>GRZLY17234</p></h6> 
+                                                                         	 <h6 class="card-text" style="color:black" align="center">Designation</h6> 
+                                                                          	<h6 class="card-text" style="color:#808080" align="center">Sr.Admin</h6>
+				&nbsp                                                                    
+                                                                          	<h6 class="card-text" style="color:black" align="center">Office</h6>
+                                                                         	<h6 class="card-text" style="color:#808080" align="center"> NYC,NY,USA</h6>                                                                                   
+                                                                                          </div>
+			        </div>
+                                                                     </div>            
+                                                        </div>    
+	                              <div class="col-sm-8">
+                                                      	<div class="btn-group btn-block" id="myDIV">
+                                                                          	<button type="button" class="btn active" onclick="location.href = 'main.html';">PRODUCTS</button> 
+                                                                             <button type="button" class="btn" onclick="location.href = 'vendors.html';">VENDORS</button>         
+   				                                            <button type="button" class="btn" onclick="location.href ='cat.html';">CATEGORY</button>
+                                                   	  </div><br><br>
+                                                                  	<div class="btn-group btn-block">
+                			<input type="text" placeholder="Search by Product Name/ID"  class="ip">
+    			<select  class="ip"><option> Filter by Category..</option>
+                                                                			<option> Art supplies</option>
+                                                                			<option>   Laptop</option>                                                                      
+                                                                			<option> Personal care</option>                                                                
+                                                                         </select>
+    			<select  class="ip"><option> Sort by</option>
+                                                                			<option> Low</option>
+                                                                			<option> Medium</option>                                                                      
+                                                                			<option> High</option>                                                                
+                                                                         </select>
+                                                                     <a href="addp.html"><input type="submit"  value="Add Product" class="add" class="button"/></a>
+                                                         </div> <br><br>
+<div class="btn-group btn-block">
+<div class="container">
+<table class="table table-hover table-bordered table-stripped" style="border:6px solid black;border-style:hidden">
+    <thead>
+      <tr  style="color:#d3d3d3">
+        <th>Products List</th>
+        <th>Brand</th>
+        <th>Category</th>
+        <th>Rating</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Trimmer</td>
+        <td>Philips</td>
+        <td>Personal care</td>
+        <td style="color:#808080">4.7</td>
+        <td><a href="view.html"><input type="submit"  value="View" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Block" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Remove" class="button"/></a></td>
+      </tr>
+      <tr>
+        <td>Shaver</td>
+        <td>Barun</td>
+        <td>Personal care</td>
+        <td style="color:#808080">4.8</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Block" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Remove" class="button"/></a></td>
+      </tr>
+      <tr>
+        <td>Macbook Pro</td>
+        <td>Apple</td>
+        <td>Laptops</td>
+        <td style="color:#808080">4.9</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Block" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Remove" class="button"/></a></td>
+      </tr>
+     <tr>
+        <td>iMac 27"</td>
+        <td>Apple</td>
+        <td>Laptops</td>
+        <td style="color:#808080">4.6</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Block" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Remove" class="button"/></a></td>
+      </tr>
+    <tr>
+        <td>Micron Pens</td>
+        <td>Sakura Pigma</td>
+        <td>Art Supplies</td>
+        <td style="color:#808080">4.1</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Block" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Remove" class="button"/></a></td>
+      </tr>
+   <tr>
+        <td>Paint Makers</td>
+        <td>Copic</td>
+        <td>Art Supplies</td>
+        <td style="color:#808080">4.2</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Block" class="button"/></a>
+	<a href="project.html"><input type="submit"  value="Remove" class="button"/></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+                                       </div>       
+                                                   </div>           
+                                           </div>                      
+   	</body>                                                             			
+</html>			
+  	                         
+                                 
+                                                 
+                                             
+		
+  	                     	
+  	         	
+
+

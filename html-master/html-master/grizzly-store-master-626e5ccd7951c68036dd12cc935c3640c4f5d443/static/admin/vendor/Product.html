@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Demo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width.initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-sm  navbar-dark justify-content-left" id="nav">
+		     <div class="container-fluid">
+		            <div class="navbar-header">
+			<a class="navbar-brand" href="#"><font color="black">GRIZZLY</font></a>
+			<img src="images/griz.jpg">&nbsp&nbsp
+			<a class="navbar-brand" href="#"><font color="black">STORE</font></a>
+			<input type="text" placeholder="Search"  class="search">
+		            </div>
+		            <ul class="nav navbar-nav navbar-right">
+			<li class="nav-item"><img src="images/g.jpg"/></li>&emsp;&emsp;
+			<li class="nav-item"><p class="p">Welcome, John Doe</p></li>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<li class="nav-item"><a href="login.html"><input type="submit"  value="Logout" class="button"/></a></li>
+		             </ul>
+		    </div>
+		</nav>
+		<div class="row mt-5 ml-3">
+                                       	         <div class="col-sm-3">
+                                        		<div class="container" align="left">
+                                        	                                    <div class="card" style="">
+                                                                                            <div class="card-header  mt-1 mb-3 mr-2 ml-2" style="color:white">PROFILE&emsp;&emsp;&emsp;&emsp;Edit</div>
+                                                                                             <span class="rounded-0" id="s1"></span><br><!--<img class="card  mt-1 mr-10 ml-1" src="images/gr.jpg" height="100" width="100" >-->
+                                                                                            	<h6  align="center">M/S John Doe</h6>
+				<p class="e">*3.7</p>
+				<div class="na">
+				 <h6 class="h">Contact</h6> 
+                                                                          	<p class="e" >978601xxxx</p></div>
+				
+                                                                         	 <h6 class="h">Address</h6> 
+                                                                          	<p class="e">Lorem ipsum dolar sit amet,<br>consectetuer adipiscing elit,<br>sed diam nonummy nibh</p>
+				&emsp;<a href="#" align="center"><input type="submit"  value="Contact Grizzly" class="add"/></a>                                                                    
+                                                                                                                                                  
+                                                                                         
+			        </div>
+                                                                     </div>            
+                                                        </div>    
+	                              <div class="col-sm-8">
+                                                      	<div class="btn-group btn-block" id="myDIV">
+                                                                          	<button type="button" class="btn" id="focus" onclick="location.href = 'Product.html';">PRODUCTS</button> 
+                                                                             <button type="button" class="btn" id="focus" onclick="location.href = 'invent.html';">INVENTORY</button>         
+   				                                            <button type="button" class="btn" id="focus"onclick="location.href ='cat.html';">PROFILE</button>
+                                                   	  </div><br><br>
+                                                                  	  <div class="btn-group btn-block">
+    			 <select  class="act"><option> Choose Action</option>
+                                                                	 		<option> Low</option>
+                                                                			<option> Medium</option>                                                                      
+                                                                			<option> High</option>                                                                
+                                                                         </select>
+			<input type="text" placeholder="Product Name/ID..."  class="ip">
+                                                                	<select  class="sort"><option> Sort by</option>
+                                                                			<option> Low</option>
+                                                                			<option> Medium</option>                                                                      
+                                                                			<option> High</option>                                                                
+                                                                         </select>
+                                                                     &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;<a href="addp.html"><input type="submit"  value="Add Product" class="add" class="button"/></a>
+                                                         </div> <br><br>
+
+<table class="table table-hover table-bordered table-stripped" style="border:6px solid black;border-style:hidden">
+    <thead>
+      <tr  style="color:#d3d3d3">
+        <th>Products List</th>
+        <th>ID</th>
+        <th>Brand</th>
+        <th>Category</th>
+        <th>Rating</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+<label class="container" id="x1">Trimmer<input type="checkbox" name="radio"><span class="checkmark"></span></label>
+</td>
+        <td>TRX0098</td>
+        <td>Philips</td>
+        <td>Personal care</td>
+        <td style="color:#808080">4.7</td>
+        <td><a href="view.html"><input type="submit"  value="View" class="v"/></a>
+	
+	<a href="project.html"><input type="submit"  value="Remove" class="v"/></a></td>
+      </tr>
+      <tr>
+        <td><label class="container" id="x1">Shaver<input type="checkbox" name="radio"><span class="checkmark"></span></label></td>
+        <td>BS6785</td>
+        <td>Barun</td>
+        <td>Personal care</td>
+        <td style="color:#808080">4.8</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="v"/></a>
+	
+	<a href="project.html"><input type="submit"  value="Remove" class="v"/></a></td>
+      </tr>
+      <tr>
+        <td><label class="container" id="x1">Macbook Pro<input type="checkbox" name="radio"><span class="checkmark"></span></label></td>
+        <td>MAC4567</td>
+        <td>Apple</td>
+        <td>Laptops</td>
+        <td style="color:#808080">4.9</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="v"/></a>
+	
+	<a href="project.html"><input type="submit"  value="Remove" class="v"/></a></td>
+      </tr>
+     <tr>
+        <td><label class="container" id="x1">iMac 27"<input type="checkbox" name="radio"><span class="checkmark"></span></label></td>
+        <td>IMAC3452</td>
+        <td>Apple</td>
+        <td>Laptops</td>
+        <td style="color:#808080">4.6</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="v"/></a>
+	
+	<a href="project.html"><input type="submit"  value="Remove" class="v"/></a></td>
+      </tr>
+    <tr>
+        <td><label class="container" id="x1">Micron Pens<input type="checkbox" name="radio"><span class="checkmark"></span></label></td>
+        <td>SPMP345</td>
+        <td>Sakura Pigma</td>
+        <td>Art Supplies</td>
+        <td style="color:#808080">4.1</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="v"/></a>
+	
+	<a href="project.html"><input type="submit"  value="Remove" class="v"/></a></td>
+      </tr>
+   <tr>
+        <td><label class="container" id="x1">Paint Makers<input type="checkbox" name="radio"><span class="checkmark"></span></label></td>
+        <td>PMC4567</td>
+        <td>Copic</td>
+        <td>Art Supplies</td>
+        <td style="color:#808080">4.2</td>
+      <td><a href="project.html"><input type="submit"  value="View" class="v"/></a>
+	
+	<a href="project.html"><input type="submit"  value="Remove" class="v"/></a></td>
+      </tr>
+    </tbody>
+  </table>
+
+                                                   </div>           
+                                           </div>                      
+   	</body>                                                             			
+</html>			
+  	                         
+                                 
+                                                 
+                                             
+		
+  	                     	
+  	         	
+
+
